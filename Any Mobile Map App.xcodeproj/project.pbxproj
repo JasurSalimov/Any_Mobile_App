@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D268F3826E6B4BA0002E0B5 /* PopupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D268F3726E6B4BA0002E0B5 /* PopupTableViewCell.xib */; };
+		1D268F3A26E6B4C30002E0B5 /* PopupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D268F3926E6B4C30002E0B5 /* PopupTableViewCell.swift */; };
+		1D268F3C26E6BC540002E0B5 /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D268F3B26E6BC540002E0B5 /* searchTableViewCell.swift */; };
+		1D268F3E26E6BC640002E0B5 /* searchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D268F3D26E6BC640002E0B5 /* searchTableViewCell.xib */; };
+		1D7575A226D3D88E0033916A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7575A126D3D88E0033916A /* Main.storyboard */; };
+		1D8EBD0526D5222A004B9DED /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBD0326D5222A004B9DED /* AccountViewController.swift */; };
+		1D8EBD0626D5222A004B9DED /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EBD0426D5222A004B9DED /* AccountViewController.xib */; };
+		1D8EBD0926D52252004B9DED /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBD0726D52252004B9DED /* BookmarkViewController.swift */; };
+		1D8EBD0A26D52252004B9DED /* BookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EBD0826D52252004B9DED /* BookmarkViewController.xib */; };
+		1D8EBD1026D522B5004B9DED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBD0F26D522B5004B9DED /* Constants.swift */; };
+		1D8EBD1326D526EA004B9DED /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBD1126D526EA004B9DED /* TabBarViewController.swift */; };
+		1D8EBD1726D52E05004B9DED /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBD1526D52E05004B9DED /* LocationViewController.swift */; };
+		1D8EBD1826D52E05004B9DED /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EBD1626D52E05004B9DED /* LocationViewController.xib */; };
+		1DAB67A426D77F3B00750E88 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB67A326D77F3B00750E88 /* R.generated.swift */; };
+		1DAB67A926D7DD1E00750E88 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DAB67A826D7DD1E00750E88 /* Gilroy-Regular.ttf */; };
+		1DAB67AB26D7E85100750E88 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DAB67AA26D7E85100750E88 /* Gilroy-SemiBold.ttf */; };
+		1DAB67AD26D7E8C400750E88 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DAB67AC26D7E8C400750E88 /* Gilroy-Bold.ttf */; };
+		1DD1F17D26D3AF9E0015FA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1F17C26D3AF9E0015FA51 /* AppDelegate.swift */; };
+		1DD1F17F26D3AF9E0015FA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1F17E26D3AF9E0015FA51 /* SceneDelegate.swift */; };
+		1DD1F18726D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1F18526D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodeld */; };
+		1DD1F18926D3AF9E0015FA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1F18826D3AF9E0015FA51 /* Assets.xcassets */; };
+		1DD1F18C26D3AF9E0015FA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1F18A26D3AF9E0015FA51 /* LaunchScreen.storyboard */; };
+		1DF058B326D57762000F512E /* SmallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF058B126D57762000F512E /* SmallTableViewCell.swift */; };
+		1DF058B426D57762000F512E /* SmallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF058B226D57762000F512E /* SmallTableViewCell.xib */; };
+		1DF058B726D57770000F512E /* BigTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF058B526D57770000F512E /* BigTableViewCell.swift */; };
+		1DF058B826D57770000F512E /* BigTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF058B626D57770000F512E /* BigTableViewCell.xib */; };
+		A2C785F4C66DCEF1AA79E1AC /* Pods_Any_Mobile_Map_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7B7D231F42D0EA2F0061D4 /* Pods_Any_Mobile_Map_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D268F3726E6B4BA0002E0B5 /* PopupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupTableViewCell.xib; sourceTree = "<group>"; };
+		1D268F3926E6B4C30002E0B5 /* PopupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupTableViewCell.swift; sourceTree = "<group>"; };
+		1D268F3B26E6BC540002E0B5 /* searchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
+		1D268F3D26E6BC640002E0B5 /* searchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchTableViewCell.xib; sourceTree = "<group>"; };
+		1D7575A126D3D88E0033916A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D8EBD0326D5222A004B9DED /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1D8EBD0426D5222A004B9DED /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		1D8EBD0726D52252004B9DED /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		1D8EBD0826D52252004B9DED /* BookmarkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkViewController.xib; sourceTree = "<group>"; };
+		1D8EBD0F26D522B5004B9DED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D8EBD1126D526EA004B9DED /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1D8EBD1526D52E05004B9DED /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		1D8EBD1626D52E05004B9DED /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		1DAB67A326D77F3B00750E88 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		1DAB67A826D7DD1E00750E88 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		1DAB67AA26D7E85100750E88 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		1DAB67AC26D7E8C400750E88 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		1DD1F17926D3AF9E0015FA51 /* Any Mobile Map App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Any Mobile Map App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD1F17C26D3AF9E0015FA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DD1F17E26D3AF9E0015FA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DD1F18626D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Any_Mobile_Map_App.xcdatamodel; sourceTree = "<group>"; };
+		1DD1F18826D3AF9E0015FA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DD1F18B26D3AF9E0015FA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DD1F18D26D3AF9E0015FA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF058B126D57762000F512E /* SmallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableViewCell.swift; sourceTree = "<group>"; };
+		1DF058B226D57762000F512E /* SmallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallTableViewCell.xib; sourceTree = "<group>"; };
+		1DF058B526D57770000F512E /* BigTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTableViewCell.swift; sourceTree = "<group>"; };
+		1DF058B626D57770000F512E /* BigTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigTableViewCell.xib; sourceTree = "<group>"; };
+		20AE2FB49E2B6C3FCC174BE4 /* Pods-Any Mobile Map App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Any Mobile Map App.release.xcconfig"; path = "Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App.release.xcconfig"; sourceTree = "<group>"; };
+		6F7B7D231F42D0EA2F0061D4 /* Pods_Any_Mobile_Map_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Any_Mobile_Map_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A98F01BA16CE6E3AD94523 /* Pods-Any Mobile Map App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Any Mobile Map App.debug.xcconfig"; path = "Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD1F17626D3AF9E0015FA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C785F4C66DCEF1AA79E1AC /* Pods_Any_Mobile_Map_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D268F3226E6AAE70002E0B5 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1DF058B226D57762000F512E /* SmallTableViewCell.xib */,
+				1D268F3726E6B4BA0002E0B5 /* PopupTableViewCell.xib */,
+				1D268F3D26E6BC640002E0B5 /* searchTableViewCell.xib */,
+				1DF058B626D57770000F512E /* BigTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		1D8EBD0B26D52267004B9DED /* TabBarGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD1126D526EA004B9DED /* TabBarViewController.swift */,
+				1DAB67A626D7C62800750E88 /* Account */,
+				1DAB67A526D7C5D900750E88 /* Location */,
+				1DF058B026D575BE000F512E /* Bookmark */,
+			);
+			path = TabBarGroup;
+			sourceTree = "<group>";
+		};
+		1D8EBD0C26D5227F004B9DED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D7575A126D3D88E0033916A /* Main.storyboard */,
+				1DF058B926D57781000F512E /* Main Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D8EBD0D26D52291004B9DED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB67A726D7DD0200750E88 /* Fonts */,
+				1D8EBD0F26D522B5004B9DED /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D8EBD0E26D52295004B9DED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD0B26D52267004B9DED /* TabBarGroup */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DAB67A526D7C5D900750E88 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD1526D52E05004B9DED /* LocationViewController.swift */,
+				1D268F3926E6B4C30002E0B5 /* PopupTableViewCell.swift */,
+				1D268F3B26E6BC540002E0B5 /* searchTableViewCell.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		1DAB67A626D7C62800750E88 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD0326D5222A004B9DED /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		1DAB67A726D7DD0200750E88 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB67A826D7DD1E00750E88 /* Gilroy-Regular.ttf */,
+				1DAB67AA26D7E85100750E88 /* Gilroy-SemiBold.ttf */,
+				1DAB67AC26D7E8C400750E88 /* Gilroy-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1DD1F17026D3AF9E0015FA51 = {
+			isa = PBXGroup;
+			children = (
+				1DD1F17B26D3AF9E0015FA51 /* Any Mobile Map App */,
+				1DD1F17A26D3AF9E0015FA51 /* Products */,
+				665FEEA91BA4ADCB1F8A729E /* Pods */,
+				EE22D251FD3D08DD1E9ED8B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD1F17A26D3AF9E0015FA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD1F17926D3AF9E0015FA51 /* Any Mobile Map App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD1F17B26D3AF9E0015FA51 /* Any Mobile Map App */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB67A326D77F3B00750E88 /* R.generated.swift */,
+				1DD1F17C26D3AF9E0015FA51 /* AppDelegate.swift */,
+				1DD1F17E26D3AF9E0015FA51 /* SceneDelegate.swift */,
+				1D8EBD0E26D52295004B9DED /* Controller */,
+				1D8EBD0D26D52291004B9DED /* Model */,
+				1D8EBD0C26D5227F004B9DED /* View */,
+				1DD1F18826D3AF9E0015FA51 /* Assets.xcassets */,
+				1DD1F18A26D3AF9E0015FA51 /* LaunchScreen.storyboard */,
+				1DD1F18D26D3AF9E0015FA51 /* Info.plist */,
+				1DD1F18526D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodeld */,
+			);
+			path = "Any Mobile Map App";
+			sourceTree = "<group>";
+		};
+		1DF058B026D575BE000F512E /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD0726D52252004B9DED /* BookmarkViewController.swift */,
+				1DF058B126D57762000F512E /* SmallTableViewCell.swift */,
+				1DF058B526D57770000F512E /* BigTableViewCell.swift */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		1DF058B926D57781000F512E /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EBD1626D52E05004B9DED /* LocationViewController.xib */,
+				1D8EBD0826D52252004B9DED /* BookmarkViewController.xib */,
+				1D8EBD0426D5222A004B9DED /* AccountViewController.xib */,
+				1D268F3226E6AAE70002E0B5 /* Custom Cells */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		665FEEA91BA4ADCB1F8A729E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A98F01BA16CE6E3AD94523 /* Pods-Any Mobile Map App.debug.xcconfig */,
+				20AE2FB49E2B6C3FCC174BE4 /* Pods-Any Mobile Map App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE22D251FD3D08DD1E9ED8B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7B7D231F42D0EA2F0061D4 /* Pods_Any_Mobile_Map_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD1F17826D3AF9E0015FA51 /* Any Mobile Map App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD1F19026D3AF9E0015FA51 /* Build configuration list for PBXNativeTarget "Any Mobile Map App" */;
+			buildPhases = (
+				700E18B8B3E40B1C72647498 /* [CP] Check Pods Manifest.lock */,
+				1DAB67A226D77DDF00750E88 /* ShellScript */,
+				1DD1F17526D3AF9E0015FA51 /* Sources */,
+				1DD1F17626D3AF9E0015FA51 /* Frameworks */,
+				1DD1F17726D3AF9E0015FA51 /* Resources */,
+				40E69FAB52A631D7C7496670 /* [CP] Copy Pods Resources */,
+				63822DFE3C671F86DFDD116B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Any Mobile Map App";
+			productName = "Any Mobile Map App";
+			productReference = 1DD1F17926D3AF9E0015FA51 /* Any Mobile Map App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD1F17126D3AF9E0015FA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1DD1F17826D3AF9E0015FA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1DD1F17426D3AF9E0015FA51 /* Build configuration list for PBXProject "Any Mobile Map App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD1F17026D3AF9E0015FA51;
+			productRefGroup = 1DD1F17A26D3AF9E0015FA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD1F17826D3AF9E0015FA51 /* Any Mobile Map App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD1F17726D3AF9E0015FA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8EBD0A26D52252004B9DED /* BookmarkViewController.xib in Resources */,
+				1D268F3E26E6BC640002E0B5 /* searchTableViewCell.xib in Resources */,
+				1DAB67A926D7DD1E00750E88 /* Gilroy-Regular.ttf in Resources */,
+				1D7575A226D3D88E0033916A /* Main.storyboard in Resources */,
+				1DAB67AD26D7E8C400750E88 /* Gilroy-Bold.ttf in Resources */,
+				1DAB67AB26D7E85100750E88 /* Gilroy-SemiBold.ttf in Resources */,
+				1D8EBD0626D5222A004B9DED /* AccountViewController.xib in Resources */,
+				1DF058B426D57762000F512E /* SmallTableViewCell.xib in Resources */,
+				1D8EBD1826D52E05004B9DED /* LocationViewController.xib in Resources */,
+				1DD1F18C26D3AF9E0015FA51 /* LaunchScreen.storyboard in Resources */,
+				1DD1F18926D3AF9E0015FA51 /* Assets.xcassets in Resources */,
+				1D268F3826E6B4BA0002E0B5 /* PopupTableViewCell.xib in Resources */,
+				1DF058B826D57770000F512E /* BigTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DAB67A226D77DDF00750E88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		40E69FAB52A631D7C7496670 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63822DFE3C671F86DFDD116B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Any Mobile Map App/Pods-Any Mobile Map App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700E18B8B3E40B1C72647498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Any Mobile Map App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD1F17526D3AF9E0015FA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAB67A426D77F3B00750E88 /* R.generated.swift in Sources */,
+				1D8EBD1326D526EA004B9DED /* TabBarViewController.swift in Sources */,
+				1D8EBD1726D52E05004B9DED /* LocationViewController.swift in Sources */,
+				1D268F3C26E6BC540002E0B5 /* searchTableViewCell.swift in Sources */,
+				1D8EBD0526D5222A004B9DED /* AccountViewController.swift in Sources */,
+				1DF058B726D57770000F512E /* BigTableViewCell.swift in Sources */,
+				1DD1F17D26D3AF9E0015FA51 /* AppDelegate.swift in Sources */,
+				1D268F3A26E6B4C30002E0B5 /* PopupTableViewCell.swift in Sources */,
+				1DD1F17F26D3AF9E0015FA51 /* SceneDelegate.swift in Sources */,
+				1D8EBD1026D522B5004B9DED /* Constants.swift in Sources */,
+				1DF058B326D57762000F512E /* SmallTableViewCell.swift in Sources */,
+				1DD1F18726D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodeld in Sources */,
+				1D8EBD0926D52252004B9DED /* BookmarkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DD1F18A26D3AF9E0015FA51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD1F18B26D3AF9E0015FA51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD1F18E26D3AF9E0015FA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DD1F18F26D3AF9E0015FA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD1F19126D3AF9E0015FA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A98F01BA16CE6E3AD94523 /* Pods-Any Mobile Map App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K64M8673AP;
+				INFOPLIST_FILE = "Any Mobile Map App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasursalimov.Any-Mobile-Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD1F19226D3AF9E0015FA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AE2FB49E2B6C3FCC174BE4 /* Pods-Any Mobile Map App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K64M8673AP;
+				INFOPLIST_FILE = "Any Mobile Map App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasursalimov.Any-Mobile-Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD1F17426D3AF9E0015FA51 /* Build configuration list for PBXProject "Any Mobile Map App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD1F18E26D3AF9E0015FA51 /* Debug */,
+				1DD1F18F26D3AF9E0015FA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD1F19026D3AF9E0015FA51 /* Build configuration list for PBXNativeTarget "Any Mobile Map App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD1F19126D3AF9E0015FA51 /* Debug */,
+				1DD1F19226D3AF9E0015FA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DD1F18526D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DD1F18626D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodel */,
+			);
+			currentVersion = 1DD1F18626D3AF9E0015FA51 /* Any_Mobile_Map_App.xcdatamodel */;
+			path = Any_Mobile_Map_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DD1F17126D3AF9E0015FA51 /* Project object */;
+}

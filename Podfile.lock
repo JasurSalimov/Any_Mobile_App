@@ -1,0 +1,28 @@
+PODS:
+  - BottomPopUpView (0.0.7)
+  - R.swift (5.4.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - YandexMapsMobile (4.0.0-full)
+
+DEPENDENCIES:
+  - BottomPopUpView (~> 0.0)
+  - R.swift
+  - YandexMapsMobile (= 4.0.0-full)
+
+SPEC REPOS:
+  trunk:
+    - BottomPopUpView
+    - R.swift
+    - R.swift.Library
+    - YandexMapsMobile
+
+SPEC CHECKSUMS:
+  BottomPopUpView: b611fbd563c6599e66a550321c77795db1002a98
+  R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  YandexMapsMobile: 0f3d8c92fad685dc33d07f83eed4eb0166089743
+
+PODFILE CHECKSUM: 3115ea3b995090e48386fd923f1e56d8c4c8a429
+
+COCOAPODS: 1.11.0.beta.2
